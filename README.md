@@ -2,7 +2,7 @@
 
 Website for the Marin Academy AI Student Advisory Committee and the Spring 2026 AI Speaker Series.
 
-**Live site:** [https://definitelynotdevan.github.io/marin-academy-ai-student-advisory-committee](https://definitelynotdevan.github.io/marin-academy-ai-student-advisory-committee)
+**Live site:** [https://marinacademyaistudentadvisorycommittee.github.io/SpeakerSeries/](https://marinacademyaistudentadvisorycommittee.github.io/SpeakerSeries/)
 
 ---
 
