@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Student Advisory Committee – Marin Academy</title>
+  <meta name="description" content="Marin Academy's AI Student Advisory Committee explores how artificial intelligence shapes teaching, learning, and life at MA. Spring 2026 Speaker Series." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="nav" role="navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="Home">
+        <div class="nav__logo">AI</div>
+        <div class="nav__name">
+          AI Advisory Committee
+          <span>Marin Academy</span>
+        </div>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html"    class="nav__link active">Home</a></li>
+        <li><a href="speakers.html" class="nav__link">Speaker Series</a></li>
+        <li><a href="about.html"    class="nav__link">About</a></li>
+      </ul>
+
+      <a href="speakers.html" class="btn btn-primary nav__cta">View Speakers</a>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section class="hero" aria-label="Hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <circle cx="6" cy="6" r="5" fill="currentColor" opacity=".4"/>
+            <circle cx="6" cy="6" r="3" fill="currentColor"/>
+          </svg>
+          Spring 2026 Speaker Series
+        </div>
+
+        <h1 class="hero__title">
+          Students Exploring<br>
+          <em>AI's Real Impact</em>
+        </h1>
+
+        <p class="hero__desc">
+          Marin Academy's AI Student Advisory Committee connects students with the people building, questioning, and shaping artificial intelligence — across careers, fields, and communities.
+        </p>
+
+        <div class="hero__actions">
+          <a href="speakers.html" class="btn btn-primary">View Speaker Series</a>
+          <a href="about.html"    class="btn btn-outline">About the Committee</a>
+        </div>
+
+        <div class="hero__stats">
+          <div>
+            <div class="hero__stat-num">6</div>
+            <div class="hero__stat-label">Speakers this spring</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">9–12</div>
+            <div class="hero__stat-label">Grades welcome</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">MA</div>
+            <div class="hero__stat-label">Alumni &amp; experts</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upcoming speaker preview cards -->
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card hero__card--highlight">
+          <div class="hero__card-tag">&#x25CF;&nbsp; Coming up · Mar 26</div>
+          <div class="hero__card-name">Lauren Chambers</div>
+          <div class="hero__card-sub">UC Berkeley Researcher</div>
+          <div class="hero__card-date">Social Justice, Tech &amp; Government</div>
+        </div>
+
+        <div class="hero__card">
+          <div class="hero__card-tag">Apr 23</div>
+          <div class="hero__card-name">Michael Lu '21</div>
+          <div class="hero__card-sub">Software Engineer · NVIDIA</div>
+          <div class="hero__card-date">MA Alumni in AI</div>
+        </div>
+
+        <div class="hero__card">
+          <div class="hero__card-tag">Apr 30</div>
+          <div class="hero__card-name">Matt Flannery</div>
+          <div class="hero__card-sub">CEO · Branch.co</div>
+          <div class="hero__card-date">Impact Investing &amp; AI Microlending</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Quick Schedule ───────────────────────────────────── -->
+  <section class="section section--alt" aria-labelledby="schedule-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="label">Spring 2026 Schedule</div>
+        <h2 id="schedule-heading">Full Speaker Lineup</h2>
+        <p>Six speakers across February–May, exploring AI from the environment to education, ethics to entrepreneurship.</p>
+      </div>
+
+      <div style="overflow-x:auto; border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+        <table class="schedule-table" aria-label="Speaker schedule">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Speaker</th>
+              <th>Affiliation</th>
+              <th>Topic</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row-past">
+              <td class="td-date">Feb 19</td>
+              <td class="td-name">Michael Brand</td>
+              <td class="td-org">UC Berkeley · Goldman School of Public Policy</td>
+              <td>AI &amp; Environmental Impact</td>
+              <td><span class="speaker-card__badge badge--past">Completed</span></td>
+            </tr>
+            <tr class="row-past">
+              <td class="td-date">Mar 9</td>
+              <td class="td-name">Bella Raja '20</td>
+              <td class="td-org">Oxford / Stanford Ph.D. · MA Alum</td>
+              <td>Conflict Minerals &amp; AI Hardware</td>
+              <td><span class="speaker-card__badge badge--past">Completed</span></td>
+            </tr>
+            <tr>
+              <td class="td-date">Mar 26</td>
+              <td class="td-name">Lauren Chambers</td>
+              <td class="td-org">UC Berkeley</td>
+              <td>Social Justice, Tech &amp; Government</td>
+              <td><span class="speaker-card__badge badge--next">Next Up</span></td>
+            </tr>
+            <tr>
+              <td class="td-date">Apr 23</td>
+              <td class="td-name">Michael Lu '21</td>
+              <td class="td-org">Software Engineer · NVIDIA · MA Alum</td>
+              <td>Alumni Perspective on AI Careers</td>
+              <td><span class="speaker-card__badge badge--upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td class="td-date">Apr 30</td>
+              <td class="td-name">Matt Flannery</td>
+              <td class="td-org">CEO · Branch.co</td>
+              <td>Impact Investing &amp; Microlending AI</td>
+              <td><span class="speaker-card__badge badge--upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td class="td-date">May 15</td>
+              <td class="td-name">Ava Iannuccillo '20</td>
+              <td class="td-org">Assoc. Product Manager · UCSF · MA Alum</td>
+              <td>Human-Centered AI in Education</td>
+              <td><span class="speaker-card__badge badge--upcoming">Upcoming</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="speakers.html" class="btn btn-navy">See Full Speaker Bios →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Mission Snapshot ─────────────────────────────────── -->
+  <section class="section" aria-labelledby="mission-heading">
+    <div class="container">
+      <div class="mission-grid">
+        <div>
+          <div class="label">Our Mission</div>
+          <h2 id="mission-heading" style="margin-block:.75rem 1.25rem;">Moving Beyond Hype to Real Understanding</h2>
+          <p style="color:var(--gray-600); margin-bottom:1.5rem;">
+            We're students in grades 9–12 exploring how AI shapes teaching, learning, and everyday life at Marin Academy — and beyond. Our goal isn't to debate "AI is good vs. bad," but to think critically and realistically about what's actually happening.
+          </p>
+
+          <div class="topics-list">
+            <div class="topic-item">
+              <span class="topic-item__icon">🌍</span>
+              <div>
+                <strong>Environmental &amp; Social Impact</strong><br>
+                <small style="color:var(--gray-600);">Supply chains, resource extraction, energy &amp; sustainability</small>
+              </div>
+            </div>
+            <div class="topic-item">
+              <span class="topic-item__icon">⚖️</span>
+              <div>
+                <strong>Policy &amp; Government</strong><br>
+                <small style="color:var(--gray-600);">How tech intersects with regulation, equity, and democracy</small>
+              </div>
+            </div>
+            <div class="topic-item">
+              <span class="topic-item__icon">🎓</span>
+              <div>
+                <strong>Careers &amp; Education</strong><br>
+                <small style="color:var(--gray-600);">Real paths into AI — from MA to the industry and beyond</small>
+              </div>
+            </div>
+            <div class="topic-item">
+              <span class="topic-item__icon">🚀</span>
+              <div>
+                <strong>Entrepreneurship &amp; Finance</strong><br>
+                <small style="color:var(--gray-600);">Impact investing, startups, and responsible innovation</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mission__quote">
+          <blockquote>
+            "We want to move beyond abstract or future-oriented discussions and instead focus on real-world applications — the day-to-day realities of AI at work, the exciting and challenging aspects, and the ethical and practical questions that come with it."
+          </blockquote>
+          <cite>— The AI Student Advisory Committee, Marin Academy</cite>
+
+          <div style="margin-top:2rem; padding-top:1.5rem; border-top:1px solid rgba(255,255,255,.1);">
+            <div style="font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; color:var(--gold); font-weight:600; margin-bottom:1rem;">Who We Invite</div>
+            <div style="display:flex; flex-wrap:wrap; gap:.5rem;">
+              <span style="background:rgba(255,255,255,.08); color:rgba(255,255,255,.8); padding:.3rem .75rem; border-radius:100px; font-size:.8rem;">MA Alumni</span>
+              <span style="background:rgba(255,255,255,.08); color:rgba(255,255,255,.8); padding:.3rem .75rem; border-radius:100px; font-size:.8rem;">Researchers</span>
+              <span style="background:rgba(255,255,255,.08); color:rgba(255,255,255,.8); padding:.3rem .75rem; border-radius:100px; font-size:.8rem;">Founders</span>
+              <span style="background:rgba(255,255,255,.08); color:rgba(255,255,255,.8); padding:.3rem .75rem; border-radius:100px; font-size:.8rem;">Engineers</span>
+              <span style="background:rgba(255,255,255,.08); color:rgba(255,255,255,.8); padding:.3rem .75rem; border-radius:100px; font-size:.8rem;">Policy Experts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Notable Alumni ────────────────────────────────────── -->
+  <section class="section section--alt" aria-labelledby="alumni-heading">
+    <div class="container">
+      <div class="section-header">
+        <div class="label">MA Alumni in AI</div>
+        <h2 id="alumni-heading">Our Community in the Industry</h2>
+        <p>Marin Academy alumni are building and shaping AI at some of the world's leading organizations.</p>
+      </div>
+
+      <div class="alumni-grid">
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">ZS</div>
+          <div class="alumni-card__name">Zach Singleton</div>
+          <div class="alumni-card__org">Google DeepMind</div>
+          <div class="alumni-card__year">Director of Product Management · '02</div>
+        </div>
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">JE</div>
+          <div class="alumni-card__name">Jesse Engel</div>
+          <div class="alumni-card__org">Google DeepMind</div>
+          <div class="alumni-card__year">Research Scientist · '02</div>
+        </div>
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">GD</div>
+          <div class="alumni-card__name">Gabe Dobbs</div>
+          <div class="alumni-card__org">OpenAI</div>
+          <div class="alumni-card__year">International Strategy &amp; Ops · '06</div>
+        </div>
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">EP</div>
+          <div class="alumni-card__name">Elliot Plant</div>
+          <div class="alumni-card__org">Anthropic</div>
+          <div class="alumni-card__year">Engineer · '11</div>
+        </div>
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">JL</div>
+          <div class="alumni-card__name">Jason Lee</div>
+          <div class="alumni-card__org">Dropbox</div>
+          <div class="alumni-card__year">Staff Product Manager · '07</div>
+        </div>
+        <div class="alumni-card">
+          <div class="alumni-card__avatar">CW</div>
+          <div class="alumni-card__name">Collin Wikman</div>
+          <div class="alumni-card__org">Aven</div>
+          <div class="alumni-card__year">Cofounder &amp; Head of Design · '06</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ──────────────────────────────────────────────── -->
+  <section class="cta-banner" aria-labelledby="cta-heading">
+    <div class="container">
+      <h2 id="cta-heading">Join Us for the Next Talk</h2>
+      <p>All Marin Academy students and faculty are welcome. Talks are held during lunch — no sign-up required.</p>
+      <div class="cta-actions">
+        <a href="speakers.html" class="btn btn-primary">See All Speakers</a>
+        <a href="about.html"    class="btn btn-outline">Learn About the Committee</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">AI</div>
+        <div>
+          <div class="footer__name">AI Student Advisory Committee</div>
+          <div class="footer__sub">Marin Academy · Spring 2026</div>
+        </div>
+      </div>
+
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="index.html"    class="footer__link">Home</a>
+        <a href="speakers.html" class="footer__link">Speakers</a>
+        <a href="about.html"    class="footer__link">About</a>
+      </nav>
+
+      <div class="footer__copy">&copy; 2026 Marin Academy AI Student Advisory Committee</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
